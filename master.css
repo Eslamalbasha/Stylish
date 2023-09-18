@@ -1,0 +1,55 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling the container */
+.container {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+/* Styling the heading */
+.title {
+    font-size: 30px;
+    color: #007bff;
+}
+
+/* Styling the color input */
+.input-color {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+/* Styling the text input */
+.input-text {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+/* Styling the submit button */
+.submit-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
